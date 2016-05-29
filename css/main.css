@@ -1,0 +1,377 @@
+/*
+branding-color: #FBC43D
+*/
+h1, h2, h3 {
+  margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+p {
+  margin: 0;
+}
+
+
+.clearfix {
+  clear: both;
+}
+
+h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 10px 0;
+}
+
+h2 {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0;
+}
+
+h4 {
+  color: white;
+  font-size: 10px;
+  padding: 15px 0 0;
+}
+
+.button {
+  background-color: #FBC43D;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 20px;
+}
+
+.intro {
+  padding-top: 140px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.intro p {
+  padding-top: 10px;
+  color: #CCC;
+}
+
+.subintro {
+  float: right;
+  width: 80%;
+}
+
+.subintro p {
+  font-size: 10px;
+  padding-top: 10px;
+}
+
+/* #header */
+/*設定最上面的歡迎暨聯絡資訊*/
+.welcome-info {
+  height: 40px;
+  background-color: black;
+  color: #8A8B8C;
+  line-height: 40px;
+}
+
+.welcome {
+  font-size: 10px;
+}
+
+.info-comm {
+  width: 400px;
+  font-size: 10px;
+}
+
+.info-item {
+  float: left;
+  padding-left: 40px;
+}
+
+.info-item img {
+  float: left;
+  padding-top: 10px;
+  padding-right: 5px;
+}
+
+.info-item >.ver-line {
+  padding-top: 0;
+}
+
+.info-item p {
+  float: right;
+  text-align: right;
+}
+
+
+/*處理logo及時間和地址*/
+.logo-info {
+  padding: 40px 0;
+}
+
+#logo {
+  font-size: 40px;
+  line-height: 55px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.info {
+  float: right;
+}
+
+#logo img {
+  float: left;
+}
+
+#logo p {
+  float: right;
+}
+
+.time-info {
+  float: left;
+  padding-left: 40px;
+}
+
+.time-info >.icon {
+  float: left;
+  padding-top: 5px;
+}
+
+.time-info >.time {
+  float: right;
+}
+
+.time {
+  padding-top: 5px;
+}
+
+.time>.title {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 5px 0;
+}
+
+.time>.content {
+  font-size: 10px;
+}
+
+/*navigation*/
+
+nav {
+  background-color: #FBC43D;
+  padding: 30px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  line-height: 40px;
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+
+/*carousel 不真的做投影片，僅放背景圖片*/
+
+.carousel>.container-full {
+  background-color: #ccc;
+}
+
+.carousel .container {
+  padding: 115px 0;
+}
+
+.container .carousel-welcome {
+  font-size: 10px;
+  font-style: italic;
+  padding: 10px 0;
+  font-weight: 500;
+}
+
+.container hr {
+  height: 2px;
+  background-color: #FBC43D;
+  color: #FBC43D;
+  border: none;
+  width: 60px;
+  margin: 10px 0;
+}
+
+.container .carousel-content {
+  padding: 5px 0;
+  font-size: 10px;
+}
+
+.container>.carousel-btn {
+  padding-top: 30px;
+}
+
+.container>.button {
+  border-radius: 5px;
+}
+
+/*welcome-to-renovation*/
+.col-content {
+  padding: 40px 40px 40px 65px;
+}
+
+.col-content>p {
+  font-size: 10px;
+}
+
+.col-item {
+  padding: 0 40px;
+} border-style: solid;
+  border-color: #FBC43D;
+  position: absolute;
+
+.col-content-icon {
+  float: left;
+}
+
+.welcome-to-renovation .row {
+  position: relative;
+}
+
+.welcome-to-renovation .col-sm-6:nth-child(2) {
+  position: absolute;
+  border-width: 3px;
+  border-color: #FBC43D;
+  border-style: solid;
+  left: 545px;
+  top: 60px;
+}
+
+
+/*  our-services  */
+.our-services {
+  padding-top: 150px;
+}
+.our-services .col-sm-4 {
+  margin: 0 10px;
+  background-color: #F5F9FA;
+  padding: 0;
+  width: 30%;
+  height: 360px;
+}
+
+.our-services .col-sm-4>.subintro {
+  float: none;
+  width: 300px;
+  padding:30px 50px;
+  margin: 0;
+}
+
+.our-services .col-sm-4>.services-btn {
+  font-size: 10px;
+  margin: 0 auto;
+}
+
+.our-services .col-sm-4 a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  background-color: #FBC43D;
+}
+
+.our-services .col-sm-4:hover {
+  background-color: #FBC43D;
+  color: white;
+}
+
+.our-services .col-sm-4:hover a {
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+}
+
+/*  latest-projects  */
+.projects-link ul {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.projects-link ul li{
+  display: inline-block;
+  padding-left: 0;
+  padding: 0 30px 60px;
+}
+
+.projects-link li a {
+  text-decoration: none;
+  color: black;
+}
+
+.latest-projects .col-3 {
+  float: left;
+  width: 25%;
+  position: relative;
+  height: 310px;
+  width: 360px;
+}
+
+.latest-projects .col-hovor {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 360px;
+  height: 310px;
+  display: none;
+}
+
+.latest-projects .latest-icon {
+  position: absolute;
+  top:40px;
+  left: 40px;
+}
+
+.latest-projects .latest-word {
+  position: absolute;
+  top: 170px;
+  left: 0px;
+  width: 200px;
+}
+
+.latest-projects .col-3:hover .col-hovor {
+  display: block;
+  background-color: #FBC43D;
+  color: white;
+}
+
+.view-all-works {
+  padding: 60px 0;
+  background-color: #333;
+  color: white;
+  position: relative;
+}
+
+.view-all-works p {
+  float: left;
+  position: absolute;
+  font-size: 20px;
+  font-weight: 800;
+  top: 50px;
+  left: 540px;
+}
+
+.view-all-works a {
+  position: absolute;
+  float: right;
+  right: 200px;
+  top: 30px;
+  border-radius: 30px;
+}
