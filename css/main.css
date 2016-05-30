@@ -120,6 +120,7 @@ h4 {
 }
 
 #logo {
+  float: left;
   font-size: 40px;
   line-height: 55px;
   text-transform: uppercase;
@@ -278,6 +279,7 @@ nav a {
 .our-services .col-sm-4>.services-btn {
   font-size: 10px;
   margin: 0 auto;
+  padding-left: 100px;
 }
 
 .our-services .col-sm-4 a {
@@ -375,3 +377,13 @@ nav a {
   top: 30px;
   border-radius: 30px;
 }
+
+
+
+
+
+
+
+
+
+
